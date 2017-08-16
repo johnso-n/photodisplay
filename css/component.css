@@ -190,7 +190,9 @@
 
 @media screen and (max-width: 650px) {
 
-	.og-fullimg { display: none; }
+	.og-fullimg { display: block; width: 100%; }
 	.og-details { float: none; width: 100%; }
+	.og-expander-inner { height:auto; }
+	.og-details h3 {padding: 0px 0 10px; margin-bottom: 0px; font-size: 23px;}
 	
 }
